@@ -36,7 +36,7 @@ fetch(URI,PETICION)
 //async await
 
 
- async function obtenerToken(){
+ export async function obtenerToken(){
   let respuesta = await fetch(URI,PETICION)
 
   return await respuesta.json()
