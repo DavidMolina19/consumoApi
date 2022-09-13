@@ -22,16 +22,16 @@ const PETICION={
 
 //promesa 
 
-fetch(URI,PETICION)
-.then(function(respuesta){
- return respuesta.json()
-})
-.then(function(respuesta){
-   console.log(respuesta)
-})
-.catch(function(respuesta){
-  console.log(respuesta)
-})
+// fetch(URI,PETICION)
+// .then(function(respuesta){
+//  return respuesta.json()
+// })
+// .then(function(respuesta){
+//    console.log(respuesta)
+// })
+// .catch(function(respuesta){
+//   console.log(respuesta)
+// })
 
 //async await
 

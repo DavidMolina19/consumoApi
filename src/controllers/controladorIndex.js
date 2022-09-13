@@ -12,9 +12,7 @@ botonArtista.addEventListener("click",   function(evento){
 
   
   const URI= generarURI(artista.value)
-  console.log(URI)
-  console.log(PETICION)
- 
+  
 
   async function activarServicio(){
   let  canciones=  await consultarCanciones(URI,PETICION)

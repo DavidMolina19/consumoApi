@@ -13,7 +13,7 @@ let tokenAutomatico= await obtenerToken()
 export  const PETICION={
     method:"GET",
     headers:{
-      token
+      Authorization: token
       
     },
   
